@@ -1,0 +1,55 @@
+命令稿啟動於 2017年03月12日 (週日) 14時20分07秒
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ whoami;p[K pes[K[Kwd
+samcheng
+/home/samcheng/lab1
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ whoami; pwd[1Pwd[1Pwdpwd
+samcheng
+/home/samcheng/lab1
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ git config -l
+user.email=samcheng168@gmail.com
+user.name=sam2377
+core.editor=vim
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/sam2377/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ git clone https;[K://github. com/sam2377/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 12, done.[K
+remote: Compressing objects:  10% (1/10)   [Kremote: Compressing objects:  20% (2/10)   [Kremote: Compressing objects:  30% (3/10)   [Kremote: Compressing objects:  40% (4/10)   [Kremote: Compressing objects:  50% (5/10)   [Kremote: Compressing objects:  60% (6/10)   [Kremote: Compressing objects:  70% (7/10)   [Kremote: Compressing objects:  80% (8/10)   [Kremote: Compressing objects:  90% (9/10)   [Kremote: Compressing objects: 100% (10/10)   [Kremote: Compressing objects: 100% (10/10), done.[K
+remote: Total 12 (delta 1), reused 7 (delta 0), pack-reused 0[K
+Unpacking objects:   8% (1/12)   Unpacking objects:  16% (2/12)   Unpacking objects:  25% (3/12)   Unpacking objects:  33% (4/12)   Unpacking objects:  41% (5/12)   Unpacking objects:  50% (6/12)   Unpacking objects:  58% (7/12)   Unpacking objects:  66% (8/12)   Unpacking objects:  75% (9/12)   Unpacking objects:  83% (10/12)   Unpacking objects:  91% (11/12)   Unpacking objects: 100% (12/12)   Unpacking objects: 100% (12/12), done.
+Checking connectivity... done.
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ cat lab1.script
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ mv lab1.scriptr[K lab1
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ git add[K[K[Kstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    lab1.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlab1/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  [01;34mlab1[0m  README.md
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ rm lab1
+rm: 無法移除 'lab1': 是個目錄
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ rmdir lab1
+rmdir: failed to remove 'lab1': 目錄不是空的
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ rmdir lab1[3P lab1ls[Kgit status[K[K[K[K[K[K[K[K[K[Kcd lab1
+]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  lab1.script  README.md
+]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  lab1.script  README.md
+]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32
