@@ -1,0 +1,4 @@
+	compile:   g++ -o 3n+1 3n+1.cpp
+	execute:   ./3n+1  
+	input: an integer
+	output: a sequence of number requested
