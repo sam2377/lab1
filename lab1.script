@@ -52,4 +52,70 @@ rmdir: failed to remove 'lab1': 目錄不是空的
 [0m[01;32m3n+1[0m  3n+1.cpp  lab1.script  README.md
 ]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1/lab1[00m$ ls
 [0m[01;32m3n+1[0m  3n+1.cpp  lab1.script  README.md
-]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32
+]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1/lab1[00m$ cd..
+cd..：無此指令
+]0;samcheng@samcheng-VirtualBox: ~/lab1/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1/lab1[00m$ cd ..
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  [01;34mlab1[0m  README.md
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ mv lab1 hmwork[Kk
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ ks
+ks：無此指令
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  [01;34mhmwork[0m  README.md
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ ls[K[Kmvlab1[K[K[K[K lab1 lab1
+mv: 無法 stat 'lab1': 沒有此一檔案或目錄
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ mv lab1 lab1[1P lab1[1P lab1[1P lab1[1P lab1h lab1m lab1w lab1o lab1r lab1k lab1
+]0;samcheng@samcheng-VirtualBox: ~/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/lab1[00m$ cd..[K[K ..
+]0;samcheng@samcheng-VirtualBox: ~[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~[00m$ ls
+examples.desktop  tesr.c  [0m[01;34m公共[0m  [01;34m影片[0m  [01;34m桌面[0m  [01;34m音樂[0m
+[01;34mlab1[0m              [01;34m下載[0m    [01;34m圖片[0m  [01;34m文件[0m  [01;34m模板[0m
+]0;samcheng@samcheng-VirtualBox: ~[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~[00m$  mv lab1 hw
+]0;samcheng@samcheng-VirtualBox: ~[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~[00m$ ls
+examples.desktop  tesr.c  [0m[01;34m公共[0m  [01;34m影片[0m  [01;34m桌面[0m  [01;34m音樂[0m
+[01;34mhw[0m                [01;34m下載[0m    [01;34m圖片[0m  [01;34m文件[0m  [01;34m模板[0m
+]0;samcheng@samcheng-VirtualBox: ~[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~[00m$ cd hw
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  [01;34mlab1[0m  README.md
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ rm 3n+1
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ rm 3n+1.cpp
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ rm README.md
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ ls
+[0m[01;34mlab1[0m
+]0;samcheng@samcheng-VirtualBox: ~/hw[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw[00m$ cd lab1
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw/lab1[00m$ ls
+[0m[01;32m3n+1[0m  3n+1.cpp  lab1.script  README.md
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw/lab1[00m$ git commit[K[K[K[K[K[K[K[Kt st[Ktatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlab1.script[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw/lab1[00m$ gitt[K add .a[K
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw/lab1[00m$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   lab1.script[m
+
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualBox[00m:[01;34m~/hw/lab1[00m$ git status[K[K[K[K[K[Kcommit 
+[?1000h[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;26r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[26;1H"~/hw/lab1/.git/COMMIT_EDITMSG" 12L, 323C[>c[1;1H[1m[37m  1 [m[4m                                                          [m[2;1H[1m[34m  2 [m[96m# Please enter the commit message for your changes. Lines  [m[3;1H[1m[34m    [m[96mstarting[m
+[1m[34m  3 [m[96m# with '#' will be ignored, and an empty message aborts thh[m[5;1H[1m[34m    [m[96me commit.[m
+[1m[34m  4 [m[96m# On branch [m[38;5;224mmaster[m
+[1m[34m  5 [m[96m# Your branch is up-to-date with '[m[38;5;224morigin/master[m[96m'.[m
+[1m[34m  6 [m[96m#[m
+[1m[34m  7 [m[96m# [m[38;5;81mChanges to be committed:[m
+[1m[34m  8 [m[96m#   [m[38;5;121mnew file[m[96m: [m[95m  lab1.script[m
+[1m[34m  9 [m[96m#[m
+[1m[34m 10 [m[96m# [m[38;5;81mChanges not staged for commit:[m
+[1m[34m 11 [m[96m#   [m[38;5;121mmodified[m[96m: [m[95m  lab1.script[m
+[1m[34m 12 [m[96m#[m
+[94m~                                                             [16;1H~                                                             [17;1H~                                                             [18;1H~                                                             [19;1H~                                                             [20;1H~                                                             [21;1H~                                                             [22;1H~                                                             [23;1H~                                                             [24;1H~                                                             [25;1H~                                                             [m[26;45H1,0-1[8C全部[1;5H[?12l[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[26;1H[1m-- 插入 --[m[26;11H[K[26;45H1,1[10C全部[1;5H[?12l[?25h[?25l[4m[93md[m[26;47H2[1;6H[?12l[?25h[?25l[4m [m[26;47H1[1;5H[?12l[?25h[?25l[4m[93mc[m[26;47H2[1;6H[?12l[?25h[?25l[4m[93mo[m[26;47H3[1;7H[?12l[?25h[?25l[4m[93mm[m[26;47H4[1;8H[?12l[?25h[?25l[4m[93mm[m[26;47H5[1;9H[?12l[?25h[?25l[4m [m[26;47H4[1;8H[?12l[?25h[?25l[4m [m[26;47H3[1;7H[?12l[?25h[?25l[4m [m[26;47H2[1;6H[?12l[?25h[?25l[4m [m[26;47H1[1;5H[?12l[?25h[?25l[4m[93mc[m[26;47H2[1;6H[?12l[?25h[?25l[4m[93mo[m[26;47H3[1;7H[?12l[?25h[?25l[4m[93mm[m[26;47H4[1;8H[?12l[?25h[?25l[4m [m[26;47H3[1;7H[?12l[?25h[?25l[4m [m[26;47H2[1;6H[?12l[?25h[?25l[4m [m[26;47H1[1;5H[?12l[?25h[?25l[4m[93mc[m[26;47H2[1;6H[?12l[?25h[?25l[4m[93mo[m[26;47H3[1;7H[?12l[?25h[?25l[4m[93mm[m[26;47H4[1;8H[?12l[?25h[?25l[4m[93mi[m[26;47H5[1;9H[?12l[?25h[?25l[4m[93mi[m[26;47H6[1;10H[?12l[?25h[?25l[4m[93mt[m[26;47H7[1;11H[?12l[?25h[?25l[4m [m[26;47H6[1;10H[?12l[?25h[?25l[4m [m[26;47H5[1;9H[?12l[?25h[?25l[4m [m[26;47H4[1;8H[?12l[?25h[?25l[4m[93mm[m[26;47H5[1;9H[?12l[?25h[?25l[4m[93mt[m[26;47H6[1;10H[?12l[?25h[?25l[4m [m[26;47H5[1;9H[?12l[?25h[?25l[4m[93mi[m[26;47H6[1;10H[?12l[?25h[?25l[4m[93mt[m[26;47H7[1;11H[?12l[?25h[?25l[4m[93m [m[26;47H8[1;12H[?12l[?25h[?25l[4m[93m3[m[26;47H9[1;13H[?12l[?25h[?25l[4m[93m/[m[26;47H10[1;14H[?12l[?25h[?25l[4m[93m1[m[26;48H1[1;15H[?12l[?25h[?25l[4m[93m2[m[26;48H2[1;16H[?12l[?25h[26;1H[K[1;15H[?25l[26;45H1,11[9C全部[1;15H[?12l[?25h[?25l[26;45H[K[26;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[?1006l[?1002l".git/COMMIT_EDITMSG" 12L, 334C 已寫入
+[?1l>[?12l[?25h[?1049l[master 6886871] commit 3/12
+ 1 file changed, 55 insertions(+)
+ create mode 100644 lab1.script
+]0;samcheng@samcheng-VirtualBox: ~/hw/lab1[01;32msamcheng@samcheng-VirtualB
